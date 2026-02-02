@@ -1,0 +1,311 @@
+{
+  "doc_id": "502c094414ed489f",
+  "policy_name": "drugbank_privacy_policy",
+  "overall_severity": "medium",
+  "findings": [
+    {
+      "label": "advertising / ad sharing",
+      "severity": "medium",
+      "rationale": "Policy indicates personal data is used and/or shared for advertising (possibly with conditions).",
+      "supporting_tasks": [
+        "TARGETED_ADS"
+      ]
+    },
+    {
+      "label": "third-party sharing",
+      "severity": "medium",
+      "rationale": "Policy indicates personal data is shared with third parties (e.g., service providers), possibly under conditions.",
+      "supporting_tasks": [
+        "THIRD_PARTY_SHARING"
+      ]
+    },
+    {
+      "label": "profiling / personalization",
+      "severity": "medium",
+      "rationale": "Policy indicates analytics/profiling/personalization using personal data.",
+      "supporting_tasks": [
+        "ANALYTICS_PROFILING"
+      ]
+    },
+    {
+      "label": "location collection",
+      "severity": "medium",
+      "rationale": "Policy indicates location data may be collected.",
+      "supporting_tasks": [
+        "COLLECTS_LOCATION"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "task_id": "TARGETED_ADS",
+      "label": "advertising / ad sharing",
+      "chunk_id": "879a67f6140537f8",
+      "section_title": "Preamble",
+      "quote": "DrugBank does not sell or rent your Personal Information to any third party for any purpose, including for advertising or marketing purposes."
+    },
+    {
+      "task_id": "TARGETED_ADS",
+      "label": "advertising / ad sharing",
+      "chunk_id": "0a534ccfacfdbd04",
+      "section_title": "What personal data we collect",
+      "quote": "Should you provide consent to marketing and profiling cookies being installed on your device... our advertising partners may also use such technologies to collect limited information about your device and interactions."
+    },
+    {
+      "task_id": "THIRD_PARTY_SHARING",
+      "label": "third-party sharing",
+      "chunk_id": "879a67f6140537f8",
+      "section_title": "Preamble",
+      "quote": "we do not share Personal Information with any third parties except in the limited circumstances described in this Privacy Policy."
+    },
+    {
+      "task_id": "THIRD_PARTY_SHARING",
+      "label": "third-party sharing",
+      "chunk_id": "a75fe009cf95a6a6",
+      "section_title": "With whom we share your information",
+      "quote": "We share your personal data with companies and individuals that provide services to us or on our behalf."
+    },
+    {
+      "task_id": "ANALYTICS_PROFILING",
+      "label": "profiling / personalization",
+      "chunk_id": "d48d1759f2ff7166",
+      "section_title": "How we process your personal data",
+      "quote": "Analyzing trends in the use of the Services and anonymizing user interaction data to improve Service performance and safety."
+    },
+    {
+      "task_id": "ANALYTICS_PROFILING",
+      "label": "profiling / personalization",
+      "chunk_id": "d48d1759f2ff7166",
+      "section_title": "How we process your personal data",
+      "quote": "Providing you a personalized AI companion and allowing you to personalize your profile, interests, and AI companion interactions."
+    },
+    {
+      "task_id": "COLLECTS_LOCATION",
+      "label": "location collection",
+      "chunk_id": "3dfa33e3c47b9d11",
+      "section_title": "What personal data we collect",
+      "quote": "general location information such as city, state, or geographic area."
+    },
+    {
+      "task_id": "COLLECTS_LOCATION",
+      "label": "location collection",
+      "chunk_id": "ace32dfd4f3e78b5",
+      "section_title": "What personal data we collect",
+      "quote": "general location information such as city, state, or geographic area."
+    }
+  ],
+  "task_outputs": {
+    "AI_TRAINING": {
+      "answer_type": "not_specified",
+      "short_answer": "The policy does not specify that personal data may be used to train or improve AI/ML models.",
+      "evidence": []
+    },
+    "ANALYTICS_PROFILING": {
+      "answer_type": "supported",
+      "short_answer": "Yes, the policy uses personal data for analytics and personalization.",
+      "evidence": [
+        {
+          "chunk_id": "d48d1759f2ff7166",
+          "section_title": "How we process your personal data",
+          "quote": "Analyzing trends in the use of the Services and anonymizing user interaction data to improve Service performance and safety."
+        },
+        {
+          "chunk_id": "d48d1759f2ff7166",
+          "section_title": "How we process your personal data",
+          "quote": "Providing you a personalized AI companion and allowing you to personalize your profile, interests, and AI companion interactions."
+        }
+      ]
+    },
+    "COLLECTS_DEVICE_USAGE": {
+      "answer_type": "supported",
+      "short_answer": "Yes, the policy states it collects device identifiers and usage data.",
+      "evidence": [
+        {
+          "chunk_id": "0a534ccfacfdbd04",
+          "section_title": "What personal data we collect",
+          "quote": "This includes your computer’s or mobile device’s operating system, manufacturer and model, browser, IP address, device and cookie identifiers, language settings, mobile device carrier, and general location information such as city, state, or geographic area."
+        },
+        {
+          "chunk_id": "0a534ccfacfdbd04",
+          "section_title": "What personal data we collect",
+          "quote": "Usage data. This includes information about how you use the Services, such as your interactions with the Services, the links and buttons you click, and page visits."
+        }
+      ]
+    },
+    "COLLECTS_LOCATION": {
+      "answer_type": "supported",
+      "short_answer": "Yes, it collects general location information.",
+      "evidence": [
+        {
+          "chunk_id": "3dfa33e3c47b9d11",
+          "section_title": "What personal data we collect",
+          "quote": "general location information such as city, state, or geographic area."
+        },
+        {
+          "chunk_id": "ace32dfd4f3e78b5",
+          "section_title": "What personal data we collect",
+          "quote": "general location information such as city, state, or geographic area."
+        }
+      ]
+    },
+    "COLLECTS_PERSONAL_DATA": {
+      "answer_type": "supported",
+      "short_answer": "Yes, the policy states that it collects personal data.",
+      "evidence": [
+        {
+          "chunk_id": "302c3b6d38407461",
+          "section_title": "Preamble",
+          "quote": "This policy describes our data handling practices and how we collect and use the Personal Information and other information you provide during your interactions with us and our Service."
+        },
+        {
+          "chunk_id": "ace32dfd4f3e78b5",
+          "section_title": "What personal data we collect",
+          "quote": "Overall, we collect the following categories of Personal Information about you when you use or otherwise interact with our Services: * Name * Company/University * Job title/industry * Employer information * Email address * Home/work/mobile telephone number * Postal or other physical address * Country."
+        }
+      ]
+    },
+    "DATA_SALE": {
+      "answer_type": "supported",
+      "short_answer": "No, the policy states that DrugBank does not sell or rent personal information.",
+      "evidence": [
+        {
+          "chunk_id": "879a67f6140537f8",
+          "section_title": "Preamble",
+          "quote": "DrugBank does not sell or rent your Personal Information to any third party for any purpose, including for advertising or marketing purposes."
+        }
+      ]
+    },
+    "DELETE_RIGHT": {
+      "answer_type": "supported",
+      "short_answer": "Yes, the policy describes a right to delete personal data.",
+      "evidence": [
+        {
+          "chunk_id": "fc0b02dc0d1890e3",
+          "section_title": "Your rights and choices",
+          "quote": "You can request the deletion of your personal data."
+        },
+        {
+          "chunk_id": "121bf73ee879d31a",
+          "section_title": "Your rights and choices",
+          "quote": "Deletion of personal information that we no longer need to provide the Services or for other lawful purposes."
+        }
+      ]
+    },
+    "OPT_OUT_SHARING": {
+      "answer_type": "conflicting",
+      "short_answer": "Yes, the policy provides an opt-out option, but also states that DrugBank does not sell or rent personal information.",
+      "evidence": [
+        {
+          "chunk_id": "91dd38b23700eafb",
+          "section_title": "Your rights and choices",
+          "quote": "You can modify your choices, opt out of these disclosures and limit our use of tracking technologies as described in our Cookie Policy."
+        },
+        {
+          "chunk_id": "879a67f6140537f8",
+          "section_title": "Preamble",
+          "quote": "DrugBank does not sell or rent your Personal Information to any third party for any purpose, including for advertising or marketing purposes."
+        }
+      ]
+    },
+    "RETENTION_PERIOD": {
+      "answer_type": "supported",
+      "short_answer": "Yes, the policy specifies retention periods for different types of personal data.",
+      "evidence": [
+        {
+          "chunk_id": "c57e1a37fec6d823",
+          "section_title": "Data retention",
+          "quote": "We will retain your personal information for only as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements."
+        },
+        {
+          "chunk_id": "c57e1a37fec6d823",
+          "section_title": "Data retention",
+          "quote": "we process your profile information, messages and content, interests and preferences for up to 60 days after termination of the contract;"
+        },
+        {
+          "chunk_id": "c57e1a37fec6d823",
+          "section_title": "Data retention",
+          "quote": "we process account information and financial records... for a minimum period of 10 years after termination of the contract due to legal retention requirements."
+        },
+        {
+          "chunk_id": "c57e1a37fec6d823",
+          "section_title": "Data retention",
+          "quote": "we retain personal data for the duration prescribed by applicable laws for each category of data, and in any case for up to 10 years from the date of collection."
+        },
+        {
+          "chunk_id": "c57e1a37fec6d823",
+          "section_title": "Data retention",
+          "quote": "personal data collected for the purpose of analyzing trends... is deleted within 1 year from the date of collection."
+        }
+      ]
+    },
+    "SECURITY_MEASURES": {
+      "answer_type": "supported",
+      "short_answer": "Yes, the policy describes various security measures.",
+      "evidence": [
+        {
+          "chunk_id": "b517d95dc38f587d",
+          "section_title": "How we secure your information",
+          "quote": "We use a variety of industry-standard security technologies and procedures to help protect your data from unauthorized access, use, or disclosure."
+        },
+        {
+          "chunk_id": "b517d95dc38f587d",
+          "section_title": "How we secure your information",
+          "quote": "All transmitted data are encrypted during transmission."
+        },
+        {
+          "chunk_id": "b517d95dc38f587d",
+          "section_title": "How we secure your information",
+          "quote": "Access to stored data is protected by multi-layered security controls, including firewalls, role-based access controls, and passwords."
+        }
+      ]
+    },
+    "SHARES_WITH_ADVERTISERS": {
+      "answer_type": "not_specified",
+      "short_answer": "The policy states that DrugBank does not sell or rent personal information for advertising purposes.",
+      "evidence": [
+        {
+          "chunk_id": "879a67f6140537f8",
+          "section_title": "Preamble",
+          "quote": "DrugBank does not sell or rent your Personal Information to any third party for any purpose, including for advertising or marketing purposes."
+        },
+        {
+          "chunk_id": "47f96b9e2c59f760",
+          "section_title": "Preamble",
+          "quote": "DrugBank does not sell or rent your Personal Information to any third party for any purpose, including for advertising or marketing purposes."
+        }
+      ]
+    },
+    "TARGETED_ADS": {
+      "answer_type": "conflicting",
+      "short_answer": "The policy states that personal information is not sold or rented for advertising, but mentions that advertising partners may collect limited information if consent is given.",
+      "evidence": [
+        {
+          "chunk_id": "879a67f6140537f8",
+          "section_title": "Preamble",
+          "quote": "DrugBank does not sell or rent your Personal Information to any third party for any purpose, including for advertising or marketing purposes."
+        },
+        {
+          "chunk_id": "0a534ccfacfdbd04",
+          "section_title": "What personal data we collect",
+          "quote": "Should you provide consent to marketing and profiling cookies being installed on your device... our advertising partners may also use such technologies to collect limited information about your device and interactions."
+        }
+      ]
+    },
+    "THIRD_PARTY_SHARING": {
+      "answer_type": "conflicting",
+      "short_answer": "Yes, the policy states that personal data may be shared with third parties under certain circumstances.",
+      "evidence": [
+        {
+          "chunk_id": "879a67f6140537f8",
+          "section_title": "Preamble",
+          "quote": "we do not share Personal Information with any third parties except in the limited circumstances described in this Privacy Policy."
+        },
+        {
+          "chunk_id": "a75fe009cf95a6a6",
+          "section_title": "With whom we share your information",
+          "quote": "We share your personal data with companies and individuals that provide services to us or on our behalf."
+        }
+      ]
+    }
+  }
+}

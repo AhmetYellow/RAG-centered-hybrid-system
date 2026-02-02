@@ -1,0 +1,4 @@
+{"policy_name": "drugbank_privacy_policy", "doc_id": "502c094414ed489f", "overall_severity": "medium", "findings": ["advertising / ad sharing", "third-party sharing", "profiling / personalization", "location collection"]}
+{"policy_name": "replika_privacy_policy", "doc_id": "5280a6f49dc0ffab", "overall_severity": "medium", "findings": ["advertising / ad sharing", "third-party sharing", "profiling / personalization", "ai training / model improvement", "location collection"]}
+{"policy_name": "replika_tos", "doc_id": "776ed0ed0b60d183", "overall_severity": "medium", "findings": ["advertising / ad sharing", "third-party sharing", "profiling / personalization", "ai training / model improvement", "location collection"]}
+{"policy_name": "drugbank_tos", "doc_id": "cda4856f87fa9dc9", "overall_severity": "medium", "findings": ["advertising / ad sharing", "third-party sharing", "profiling / personalization", "location collection"]}

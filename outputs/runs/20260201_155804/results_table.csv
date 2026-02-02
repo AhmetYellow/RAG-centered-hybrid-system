@@ -1,0 +1,5 @@
+policy_name,doc_id,third_party_sharing,ad_sharing,targeted_ads,profiling,ai_training,location_collection,protections_count,supported_count,conflicting_count,not_specified_count
+drugbank_privacy_policy,502c094414ed489f,yes,no,yes,yes,no,yes,4,8,3,2
+replika_privacy_policy,5280a6f49dc0ffab,yes,yes,yes,yes,yes,yes,4,8,4,1
+replika_tos,776ed0ed0b60d183,yes,yes,yes,yes,yes,yes,4,8,4,1
+drugbank_tos,cda4856f87fa9dc9,yes,no,yes,yes,no,yes,4,9,2,2
